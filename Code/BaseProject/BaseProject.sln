@@ -5,6 +5,12 @@ VisualStudioVersion = 17.2.32616.157
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BaseProject", "BaseProject.vcxproj", "{2AE913FA-44BB-4167-9167-72351936A3C7}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DLL", "DLL", "{1CF1A86F-4880-4D21-B4C7-90A0ABBF2BF9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EXE", "EXE", "{BF004A6F-5E2D-444A-8E86-B4F333AAD288}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ProjectDLL", "..\ProjectDLL\ProjectDLL.vcxproj", "{BEB2BC33-741C-45DD-81F0-00106A24013C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -21,9 +27,21 @@ Global
 		{2AE913FA-44BB-4167-9167-72351936A3C7}.Release|x64.Build.0 = Release|x64
 		{2AE913FA-44BB-4167-9167-72351936A3C7}.Release|x86.ActiveCfg = Release|Win32
 		{2AE913FA-44BB-4167-9167-72351936A3C7}.Release|x86.Build.0 = Release|Win32
+		{BEB2BC33-741C-45DD-81F0-00106A24013C}.Debug|x64.ActiveCfg = Debug|x64
+		{BEB2BC33-741C-45DD-81F0-00106A24013C}.Debug|x64.Build.0 = Debug|x64
+		{BEB2BC33-741C-45DD-81F0-00106A24013C}.Debug|x86.ActiveCfg = Debug|Win32
+		{BEB2BC33-741C-45DD-81F0-00106A24013C}.Debug|x86.Build.0 = Debug|Win32
+		{BEB2BC33-741C-45DD-81F0-00106A24013C}.Release|x64.ActiveCfg = Release|x64
+		{BEB2BC33-741C-45DD-81F0-00106A24013C}.Release|x64.Build.0 = Release|x64
+		{BEB2BC33-741C-45DD-81F0-00106A24013C}.Release|x86.ActiveCfg = Release|Win32
+		{BEB2BC33-741C-45DD-81F0-00106A24013C}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2AE913FA-44BB-4167-9167-72351936A3C7} = {BF004A6F-5E2D-444A-8E86-B4F333AAD288}
+		{BEB2BC33-741C-45DD-81F0-00106A24013C} = {1CF1A86F-4880-4D21-B4C7-90A0ABBF2BF9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9A4B8E81-A7E2-4D7F-9CB8-C783E3FFDC4F}
