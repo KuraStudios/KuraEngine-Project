@@ -1,6 +1,6 @@
 This is A template Project for the blackspace engine.
 
-NOTE: As of 7/5/2022, Engine Binarys Arent Fully Finshed. The Project Will Be Updated With the Engine Binary(s) Once Completed.
+NOTE: As of 7/24/2022, The BlackSpace Engine is now closed source. as well as this project template is now obsolete(engine has a personal build system.)
 
 There are 9 Directorys Within the Project.
 
